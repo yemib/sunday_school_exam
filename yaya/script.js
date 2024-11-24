@@ -1,93 +1,77 @@
 var questions = [
   {
-    question: `1.	You should know that as a ____ chastens his son, so the LORD your ____ you." Deuteronomy 8:5 (NKJV)
-`,
-    options: [`Human, Correct`, `Man, Chastens`, `Parents, Chasten`  , `Man, chastise` ],
+    question: `1.	The word Spirit in Hebrew tongue according to lesson 1 is _________________ `,
+    options: [`Elohim`, `Ruach`, `Dunamis`   ],
     answer: 1
   },
 
     {
-      question: `2.	Paul was born in AD 10 in the Roman city of _____`,
-      options: [`Damascus`, `Tarsus`, `Judea`  ,  `Samaria` ],
+      question: `2.	Whoever abides in Him does not _________, Whoever ________ has neither seen Him nor known Him.1 John 3:6 (NKJV)`,
+      options: [`Him, Sin `, `Sin, Sin`, `Lie, Lie`  ,  `Lie, Sin` ],
       answer: 1
     }
     ,
 
     {
-      question: `3.	For this purpose the Son of God was manifested, that He might destroy the works of the devil. (NKJV)`,
-      options: [`John 3:8b`, `1 John 3:8b`, `John 3:8a`  ,  ` 1 John 3:8a` ],
+      question: `3.	Spiritual practices that do not conform to true Christianity according to lesson 2 is __________ `,
+      options: [`Spirituality`, `Alternative Spirituality `, `Alternative Christianity `  ,  ` Spiritualism ` ],
       answer: 1
     }
     ,
 
     {
-      question: `4.	According to lesson 44, the following are the categories of people to submit to except?`,
-      options: [`Governing Authorities`, `Husbands submit to your wives`, `Wives submit to Husbands` , `Servants submit to Masters` ],
+      question: `4.	Jesus said unto him, I am the way, the truth, and the life: no man comes unto the father, but by me. `,
+      options: [`John 6:14 `, `John 14:6 `, `John 6:4 `  ,  `John 4:6 ` ],
+      answer: 1
+    },
+
+    {
+      question: `5.	According to lesson 5, A God-pleaser refers to someone who does things that bring __________ `,
+      options: [`Disrepute to God `, `Pleasure to God `, `Request to God`  ,  ` Pleasure to Man` ],
+      answer: 1
+    },
+
+    {
+      question: `6.	According to lesson 6, Men-pleaser refers to someone who strives to _________ `,
+      options: [`Please God `, `Please Men `, `Please Satan `  ,  ` Please Men and God ` ],
+      answer: 1
+    },
+
+    {
+      question: `7.	According to lesson 7 ___________ is the belief in and worship of a superhuman- with controlling power, especially a personal God or gods `,
+      options: [`Spirituality `, `Religion`, `Christianity`  ,  `Faith  ` ],
+      answer: 1
+    },
+
+    {
+      question: `8.	What is the topic of Lesson 8 __________`,
+      options: [`Men Pleasers `, `The Redemption Package`, `Consecration`  ,  `Christian Faith ` ],
+      answer: 1
+    },
+
+    {
+      question: `9. Let your _________ be known unto all men. The Lord is at hand.” Philippians 4:5(NJV) `,
+      options: [`Life`, `Moderation`, `Spirit`  ,  ` Act` ],
+      answer: 1
+    },
+
+    {
+      question: `10. According to lesson 10, God resists the ___________ `,
+      options: [`Pride`, `Proud`, `Strong`  ,  ` Powerful` ],
+      answer: 1
+    },
+
+    {
+      question: `11. Lesson 11 topic is _________`,
+      options: [`Divine Resistance `, `Consecration`, `Christian Living `  ,  `Cultural Christianity ` ],
+      answer: 1
+    },
+
+    {
+      question: `12. According to lesson 12, _________ are nominal believers who superficially identify themselves as Christians but do not truly adhere to the tenets of the Christian faith`,
+      options: [`Christianity and Socialism `, `Cultural Christianity `, `Christianity`  ,  `Consecration  ` ],
       answer: 1
     }
-    ,
-
-    {
-      question: `5.	According to lesson 46, one of the following is a cause of fruitlessness`,
-      options: [`Selfless service`, `Ignorance of the sound word of God`, `Dedication`  , `Focus` ],
-      answer: 1
-    }
-    ,
-
-
-    {
-      question: `6.	Which amongst the following is not a pointer to identifying your purpose for living, according to the lesson   `,
-      options: [`Submission`, `Potential`, `Passion`   , `Prayer` ],
-      answer: 0
-    }
-    ,
-
-    {
-      question: `7.	_____ is the great commission that every believer has been called to do
- `,
-      options: [`Worship`, `Evangelism`, `Praise` , `Seed sowing` ],
-      answer: 1
-    }
-    ,
-
-    {
-      question: `8.	Another word for Perilous is called `,
-      options: [`Charisma`, `Chaledom`, `Chalepos`  , `Chazam`  ],
-      answer: 2
-    }
-    ,
-
-    {
-      question: `9.	Will the current heaven and earth last forever?  `,
-      options: [`yes`, ` no`, `I am not sure`  ],
-      answer: 0
-    }
-    ,
-
-    {
-      question: `10 .	 Will the second coming of Christ be fulfilled according to the Sunday school manual`,
-      options: [`yes`, `no`, `I am not sure` ],
-      answer: 0
-    }
-    ,
-    
-    {
-      question: `11 .	 For then shall be _____, such as was  not since the beginning of the world to this time,
-       no, nor ever shall be." Matthew 24:21`,
-      options: [`great tribulation`, `great enjoyment` ,  'Peace'],
-      answer: 0
-    }
-    ,
-        
-    {
-      question: `12 .	  What does the Millennial Reign of Christ means  ?  `,
-      options: [`A thousand years of a glorious Kingdom of Christ`,
-         ` Two thousand Years of a glorious Kingdom of Christ`,
-        `Four thousand Years of a glorious kingdom of Christ `
-        ],
-      answer: 0
-    }
-    
     
 
     

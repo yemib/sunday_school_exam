@@ -23,7 +23,7 @@ The kingdom of God is generally refered to as-
 
   {
     question: `3. A creature called man `,
-    options: [`A body was created  as a contenar to carry the Spirit and Soul
+    options: [`A body was created  as a container to carry the Spirit and Soul
  `, `Potential`   , `Man is not a tripartite being(spirit soul ,body` , `The soul is a tangible thing
 `],
     answer: 0
@@ -40,7 +40,7 @@ The kingdom of God is generally refered to as-
   {
     question: `5. I know who IAM `,
     options: [`the character must alien with the declaration made `, `the declaration does not fuel the character of the believer
-`  ,  ` the believers is saved by his had work` ],
+`  ,  ` the believers is saved by his hard work` ],
     answer: 0
   }
   ,
