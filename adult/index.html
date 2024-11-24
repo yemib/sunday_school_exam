@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RCCG PRIESTHOOD SUNDAY SCHOOL EXAM </title>
+  <link type="text/css" href="/adult/style.css" rel="stylesheet">
+
+
+  <!-- Styles for participant info -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .container {
+      background-color: #ffffff;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 80%;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333333;
+    }
+
+    p {
+      text-align: center;
+      color: #555555;
+      margin-bottom: 20px;
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: #333333;
+    }
+
+    input[type="text"]  ,  select {
+      padding: 8px;
+      width: 100%;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background-color: #3498db;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 600px) {
+      .container {
+        width: 90%;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div id="container" class="container">
+    <img src="logo.jpg" height="100" width="100" />
+    <h2> RCCG PRIESTHOOD PARISH </h2>
+
+    <h3>ADULT SUNDAY SCHOOL TEST</h3>
+    <div align="left">
+      <!-- Participant info -->
+      <form id="participantForm" method="Post" action="submit.php">
+        <label for="name">Name:</label>
+        <input name="name" id="name" type="text" required>
+
+        <label for="phone">Phone Number:</label>
+        <input name="phone" id="phone" type="text" required>
+
+        <br/><br/>
+
+    <label for="phone">Select Your Class : </label>
+
+        <select  name="class_name"     id="class_name"  >
+          <option value="Faith">Faith</option>
+          <option value="Love">Love</option>
+
+        </select>
+
+
+        <input type="hidden" id="score_input" name="score" value="">
+        <input type="hidden" name="startTimestamp" id="startTimestamp" value="<?php echo time(); ?>">
+        <br />
+        <br />
+        <button onclick="startExam(event)">Start Test</button>
+      </form>
+    </div>
+    <div id="examContainer" style="display: none;">
+      <div id="question_container">
+        <div style="font-weight: bolder" id="timer"></div>
+        <div id="question"></div>
+        <ul align="left" id="options"></ul>
+
+        <div align="right">
+          <button onclick="nextQuestion()">Next</button>
+
+        </div>
+      </div>
+      <div id="scoret"></div>
+      <div id="thank" style="display: none;"> Thank You !</div>
+    </div>
+  </div>
+  <script src="/adult/script.js"></script>
+</body>
+
+</html>
