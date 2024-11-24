@@ -1,104 +1,107 @@
 var questions = [
   {
     question: ` 1. 
-Rehab was saved from destruction because `,
-    options: [`Christ shall come from her lineage` , 
-      `Her faith in God Almighty`, 
-      `the spies held up in her house` ,  'the spies  swore to her' ],
-    answer: 1
+The kingdom of God is generally refered to as-
+ `,
+    options: [`The kingdom of Heaven` , 
+      ` A foot stool of God`, 
+      `A  place were men seek power` ,  `A visible kingdom of Man` ],
+    answer: 0
   },
 
 
   {
-    question: `2 . What is the main aim of having good virtue `,
-    options: [`To attract accolades to one self`,
-       `To please people in the church including the pastor's`,
-       `To attract great men and women into your life`  , 
-      `To walk to please God`
-      ],
-    answer: 3
-  }
-  ,
-
-  {
-    question: `3. Which among the following is not a pointer to 
-    identifying your purpose for living, according to the lesson `,
-    options: [`Submission  `, `Potential`   , `Passion` , `Prayer`],
-    answer: 0
-  }
-  ,
-
-  {
-    question: `4.  _____ is the great commission that every believer has been called to do `,
-    options: [`Worship`, `Evangelism`, ` Praise`   , `Seed sowing`],
-    answer: 1
-  }
-  ,
-
-  {
-    question: `5. Another word for Perilous is called  `,
-    options: [`Charisma `, `Chaledom`  ,  `Chalepos` ,`Chazam` ],
-    answer: 2
-  }
-  ,
-
-  {
-    question: `6.  The following are the reasons why God allows natural disasters EXCEPT `,
-    options: [`to serve as a warning for unbelievers`, `they are as a result of laws at work`,
-       `to establish God's supremacy`   ],
-    answer: 1
-  }
-  ,
-
-  {
-    question: `7.	The following are descriptions of cultural Christianity EXCEPT `,
-    options: [`They uphold to the holiness teaching of our Lord Jesus Christ.`,
-       `They wear the label "Christian" without personal conviction that Jesus is Lord.`  ,
-       `They consider themselves Christians because of family background.`  
+    question: `2 . Diety is considered a- `,
+    options: [`god,  goddess, or Supreme being`,
+       `Jesus is not considered one`,
+       `God is not a diety`  , 
+      `Not to be mentioned in Christianity`
       ],
     answer: 0
   }
   ,
 
   {
-    question: `8.	For I know the thoughts that I think toward you, saith the LORD, 
-    thoughts of peace, and not of evil, to give you an expected end.  this memory verse from Lesson 42
-"Destiny Destroyers" is taken from `,
-    options: [`Jeremiah 7:29 `, `Isaiah 42:2` , `Jeremiah 29:11`],
-    answer: 2
-  }
-  ,
-
-  {
-    question: `9.	Will the current heaven and earth last forever?  `,
-    options: [`yes`, ` no`, `I am not sure`  ],
+    question: `3. A creature called man `,
+    options: [`A body was created  as a contenar to carry the Spirit and Soul
+ `, `Potential`   , `Man is not a tripartite being(spirit soul ,body` , `The soul is a tangible thing
+`],
     answer: 0
   }
   ,
 
   {
-    question: `10 .	 Will the second coming of Christ be fulfilled according to the Sunday school manual`,
-    options: [`yes`, `no`, `I am not sure` ],
+    question: `4.  The flesh _______`,
+    options: [`The flesh is a stong hold of  Sin`, `The flesh only will go to heaven`, ` The flesh always obey God`  ],
+    answer: 0
+  }
+  ,
+
+  {
+    question: `5. I know who IAM `,
+    options: [`the character must alien with the declaration made `, `the declaration does not fuel the character of the believer
+`  ,  ` the believers is saved by his had work` ],
+    answer: 0
+  }
+  ,
+
+  {
+    question: `6.  What is discipleship `,
+    options: [` the term discipleship originally meant Pupil or apprentice`, 
+      `A discipline is committed to follow his will ant not God's`,
+       `Select who to love and who not to love`   ],
+    answer: 0
+  }
+  ,
+
+  {
+    question: `7.	Anyone who will follow the examples of Jesus successfully must be_________ `,
+    options: [`Disciplined`,
+       `Unserious`  ,
+       `Love the World`  
+      ],
+    answer: 0
+  }
+  ,
+
+  {
+    question: `8. One of the foundamental obligations of a christian is to follow_______ with all men `,
+  options: [`Peace`, `Quorel` , `Fast` , `Pray`],
+    answer: 0
+  }
+  ,
+
+  {
+    question: `9.	For my mouth shall speak _______ and wickedness is an abormination to my lips.   `,
+    options: [`truth`, `prohesy`, `Good things`  ],
+    answer: 0
+  }
+  ,
+
+  {
+    question: `10 .	 But he gaveth more Grace wherefore he saith, God ______ the _______, but  giveth ________ unto the humble`,
+    options: [`resisteth , proud , Grace`, `welcome,proud,Grace`, `resisteth,prayerful,honour` ],
     answer: 0
   }
   ,
   
+ 
+      
   {
-    question: `11 .	 For then shall be _____, such as was  not since the beginning of the world to this time,
-     no, nor ever shall be." Matthew 24:21`,
-    options: [`great tribulation`, `great enjoyment` ,  'Peace'],
+    question: `11 .	  One of these is a way of preventing strife ?  `,
+    options: [`Avoid needless arguments`,
+       ` Always proof your point`,
+      `keep malice `
+      ],
+    answer: 0
+  },
+
+  {
+    question: `12 .	 God want us to live a balance life ?`,
+    options: [`yes`, `no` ],
     answer: 0
   }
   ,
-      
-  {
-    question: `12 .	  What does the Millennial Reign of Christ means  ?  `,
-    options: [`A thousand years of a glorious Kingdom of Christ`,
-       ` Two thousand Years of a glorious Kingdom of Christ`,
-      `Four thousand Years of a glorious kingdom of Christ `
-      ],
-    answer: 0
-  }
   
 
 ];

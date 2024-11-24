@@ -2,4 +2,4 @@
 // Database connection settings
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "Power93@";

@@ -1,8 +1,7 @@
+<h3>YAYA RESULT</h3>
 <?php
 // MySQL database credentials
-$servername = "localhost";
-$username = "root";
-$password = "";
+include('../env.php');
 $dbname = "yaya";
 $tableName = "result";
 
@@ -21,13 +20,13 @@ $result = $conn->query($sql);
 // Check if there are any rows returned
 if ($result->num_rows > 0) {
     // Start creating the HTML table
-    echo "<table>";
+    echo "<table  border=1>";
     echo "<tr>
             <th>ID</th>
             <th>Name</th>
             <th>phone</th>
              <th>score</th>
-            <th>Date Submitted On </th>
+            <th>Class </th>
           </tr>";
 
     // Fetch and display each row of data
@@ -37,7 +36,7 @@ if ($result->num_rows > 0) {
         echo "<td>" . $row['name'] . "</td>";
         echo "<td>" . $row['phone'] . "</td>";    
          echo "<td>" . $row['score'] . "</td>"; 
-          echo "<td>" . $row['created_at'] . "</td>";
+          echo "<td>" . $row['class_name'] . "</td>";
         echo "</tr>";
     }
 

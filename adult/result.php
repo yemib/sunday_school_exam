@@ -7,11 +7,10 @@
     <script  src="../jquery-3.6.0.min.js"></script>
 </head>
 <body>
+    <h2>ADULT RESULT</h2>
 <?php
 // MySQL database credentials
-$servername = "localhost";
-$username = "root";
-$password = "";
+include('../env.php');
 $dbname = "adult";
 $tableName = "result";
 
@@ -30,13 +29,13 @@ $result = $conn->query($sql);
 // Check if there are any rows returned
 if ($result->num_rows > 0) {
     // Start creating the HTML table
-    echo "<table>";
+    echo "<table border=1>";
     echo "<tr>
             <th>ID</th>
             <th>Name</th>
             <th>phone</th>
              <th>score</th>
-            <th>duration</th>
+            <th>class</th>
           </tr>";
 
     // Fetch and display each row of data
@@ -46,7 +45,7 @@ if ($result->num_rows > 0) {
         echo "<td>" . $row['name'] . "</td>";
         echo "<td>" . $row['phone'] . "</td>";    
          echo "<td>" . $row['score'] . "</td>"; 
-          echo "<td>" . $row['duration'] . "</td>";
+          echo "<td>" . $row['class_name'] . "</td>";
         echo "</tr>";
     }
 
