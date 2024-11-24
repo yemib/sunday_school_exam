@@ -11,9 +11,7 @@ $currentTimestamp = time(); // Get the current timestamp
 $duration = $currentTimestamp ; //- $startTimestamp;
 
 // Database connection settings
-$servername = "localhost";
-$username = "root";
-$password = "";
+include('../env.php');
 $dbname = "yaya";
 //first create the database first.  
 
